@@ -1,0 +1,78 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  color: white;
+  background-color: #0e1e20;
+}
+
+nav #logo {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  gap: 20px;
+  font-style: italic;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  gap: 20px;
+  list-style-type: none;
+  font-size: large;
+  font-weight: 700;  
+}
+
+nav ul a {
+  color: white;
+  text-decoration: unset;
+}
+
+
+.input-container {
+    position: relative;
+    width: 300px;
+    display: flex;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px 100px 10px 40px; /* Adjust padding to accommodate buttons */
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.icon-btn, .search-btn, .clear-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.icon-btn {
+    left: 10px;
+}
+
+.search-btn {
+    right: 60px;
+    color: blue;
+}
+
+.clear-btn {
+    right: 10px;
+    color: red;
+}
+
+.icon-btn i {
+    font-size: 18px;
+}
