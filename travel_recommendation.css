@@ -1,3 +1,14 @@
+body{
+  height: 100dvh;
+  width: 100dvw;
+  background-image: linear-gradient(to right, #fefefe75, #fefefe00),url('assets/img/city_birdseye_view.jpeg');
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;  
+  overflow: hidden;
+  margin: 0;
+}
+
 nav {
   display: flex;
   flex-direction: row;
@@ -81,4 +92,62 @@ nav ul a {
 
 .icon-btn i {
     font-size: 18px;
+}
+
+#home-container{
+  padding: 120px 0 0 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;  
+}
+
+#home-title {
+  width: 500px;
+  font-size: 70px;
+  color: #121c30de;
+  text-transform: uppercase;
+}
+
+#home-intro {
+  width: 500px;
+  font-size: 20px;
+  color: #121c30de;
+  text-transform: uppercase;
+}
+
+#book-btn{
+  color: white;
+  background: #288423;
+  padding: 12px 10px;
+  border-radius: 10px;
+  width: 200px;
+  font-size: 24px;
+  font-weight: 700;
+  border-width: 0;
+  opacity: 0.8;
+  text-transform: uppercase;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: fixed;
+  top: 350px;
+  left: 10px;
+}
+
+.social-icons img {
+  width: 40px;
+  height: 40px;
+}
+
+#vertical-line-homepage {
+  background-color: #121c30de;
+  width: 2px;
+  height: 210px;
+  position: fixed;
+  top: 100px;
+  left: 30px;
 }
