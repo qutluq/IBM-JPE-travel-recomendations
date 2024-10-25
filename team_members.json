@@ -1,0 +1,17 @@
+[
+    {
+      "name": "Sarah Collins",
+      "role": "CEO/Founder",
+      "duties": "is responsible for overseeing the overall direction and vision of the company, developing business strategies and fostering partnerships, and managing high-level decision-making and operations."
+    },
+    {
+      "name": "Mark Thompson",
+      "role": "Travel Consultant",
+      "duties": "is responsible for communicating with clients to understand their travel preferences and needs, planning and organizing personalized travel itineraries, and providing clients with information on destinations, accommodations, and travel services."
+    },
+    {
+      "name": "John Martinez",
+      "role": "Operations Manager",
+      "duties": "is responsible for ensuring smooth day-to-day operations of the agency, handling vendor relationships and negotiating deals with travel partners, and monitoring customer service performance and satisfaction."
+    }
+]

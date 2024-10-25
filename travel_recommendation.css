@@ -1,10 +1,11 @@
-body{
+body {
   height: 100dvh;
   width: 100dvw;
-  background-image: linear-gradient(to right, #fefefe75, #fefefe00),url('assets/img/city_birdseye_view.jpeg');
-  background-size: cover; 
+  background-image: linear-gradient(to right, #fefefe75, #fefefe00),
+    url("assets/img/city_birdseye_view.jpeg");
+  background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;  
+  background-repeat: no-repeat;
   overflow: hidden;
   margin: 0;
 }
@@ -37,7 +38,7 @@ nav ul {
   gap: 20px;
   list-style-type: none;
   font-size: large;
-  font-weight: 700;  
+  font-weight: 700;
 }
 
 nav ul a {
@@ -45,41 +46,42 @@ nav ul a {
   text-decoration: unset;
 }
 
-
 .input-container {
-    position: relative;
-    width: 400px;
-    display: flex;
+  position: relative;
+  width: 400px;
+  display: flex;
 }
 
 .input-field {
-    width: 100%;
-    padding: 10px 100px 10px 40px; /* Adjust padding to accommodate buttons */
-    border-radius: 20px;
-    border: 1px solid #ccc;
-    outline: none;
+  width: 100%;
+  padding: 10px 100px 10px 40px; /* Adjust padding to accommodate buttons */
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  outline: none;
 }
 
-.icon-btn, .search-btn, .clear-btn {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    border: none;
-    background: none;
-    cursor: pointer;
-    padding: 5px;
+.icon-btn,
+.search-btn,
+.clear-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 5px;
 }
 
 .icon-btn {
-    left: 10px;
+  left: 10px;
 }
 
 .search-btn {
-    right: 70px;
-    color: white;
-    background: #288423;
-    padding: 5px 10px;
-    border-radius: 10px;
+  right: 70px;
+  color: white;
+  background: #288423;
+  padding: 5px 10px;
+  border-radius: 10px;
 }
 
 .clear-btn {
@@ -91,15 +93,15 @@ nav ul a {
 }
 
 .icon-btn i {
-    font-size: 18px;
+  font-size: 18px;
 }
 
-#home-container{
+#home-container {
   padding: 120px 0 0 150px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;  
+  align-items: flex-start;
 }
 
 #home-title {
@@ -116,7 +118,7 @@ nav ul a {
   text-transform: uppercase;
 }
 
-#book-btn{
+#book-btn {
   color: white;
   background: #288423;
   padding: 12px 10px;
@@ -150,4 +152,75 @@ nav ul a {
   position: fixed;
   top: 100px;
   left: 30px;
+}
+
+.placeholder-div {
+  height: 20px;
+  width: 400px;
+  opacity: 0;
+}
+
+.highlight-text {
+  font-weight: 700;
+}
+
+#about-mission {
+  margin: 0 50px 0 20px;
+  padding: 20px;
+  background-color: #cccccc87;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  border-radius: 20px;
+}
+
+#about-team {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 32px;
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+
+#about-team h1 {
+  font-size: 60px;
+  color: #fff;
+  width: 160px;
+}
+
+.team-member .role{
+  background-color: #57a6eb;
+  width: 100%;
+  padding: 7px;
+  border-radius: 20px;
+  border: 1px solid #000;
+  text-align: center;
+}
+
+.team-member{
+  width: 20vw;
+  background-color: #58585852;
+  border-radius: 30px;
+  padding: 30px 15px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;  
+  height: 256px;
+  color: #fbfbfb;
+}
+
+.team-member h2{
+  margin: 0px;
+}
+
+.team-member img{
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.member-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
